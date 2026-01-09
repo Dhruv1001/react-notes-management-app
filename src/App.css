@@ -1,11 +1,10 @@
-/* ===== Global Reset ===== */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* ===== App Container ===== */
 .app {
   width: 700px;
   max-width: 900px;
@@ -25,7 +24,6 @@
   color: #1e3a8a;
 }
 
-/* ===== Form Styles ===== */
 form {
   display: flex;
   flex-direction: column;
@@ -64,7 +62,6 @@ textarea::placeholder {
   color: #94a3b8;
 }
 
-/* Error state for title input */
 .error-input {
   border-color: #ef4444;
 }
@@ -74,13 +71,13 @@ textarea::placeholder {
   box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.1);
 }
 
-/* Textarea */
+
 textarea {
   min-height: 120px;
   resize: vertical;
 }
 
-/* ===== Buttons ===== */
+
 button {
   padding: 0.875rem 1.5rem;
   border: none;
@@ -114,7 +111,7 @@ button:disabled {
   box-shadow: none;
 }
 
-/* ===== Error Text ===== */
+
 .error {
   color: #ef4444;
   font-size: 0.875rem;
@@ -125,7 +122,7 @@ button:disabled {
   gap: 0.25rem;
 }
 
-/* ===== Notes List ===== */
+
 .note-item {
   background-color: #ffffff;
   border: 1px solid #e2e8f0;
@@ -177,7 +174,6 @@ button:disabled {
   box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
 }
 
-/* ===== Loader & Empty State ===== */
 .loader,
 .empty-state {
   text-align: center;
@@ -187,7 +183,6 @@ button:disabled {
   font-weight: 500;
 }
 
-/* ===== Full Screen Buffering Overlay ===== */
 .buffering-overlay {
   position: fixed;
   top: 0;
@@ -207,7 +202,6 @@ button:disabled {
   color: #333;
 }
 
-/* Spinner */
 .spinner {
   width: 45px;
   height: 45px;
